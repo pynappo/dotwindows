@@ -1,0 +1,39 @@
+
+[user]
+  email = lehtien.david@gmail.com
+  name = test
+  signingkey = C:\\Users\\lehti\\.ssh\\id_ed25519.pub
+[credential "helperselector"]
+  selected = manager-core
+[credential]
+  helper = manager-core
+[safe]
+  directory = C:/Users/lehti/scoop/buckets/extras
+  directory = C:/Users/lehti/scoop/buckets
+  directory = C:/Users/lehti/scoop/buckets/nonportable
+  directory = c:/Users/lehti/AppData/Local/nvim-data/site/pack/packer/start/nvim-treesitter
+  directory = C:\\Users\\lehti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter\\
+  directory = *
+  directory = C:\\Users\\lehti\\.files\\
+  directory = C:/Users/lehti/.files
+[core]
+  symlinks = true
+  fsmonitor = true
+  editor = nvim
+  sshCommand = C:\\\\Users\\\\lehti\\\\scoop\\\\apps\\\\openssh\\\\current\\\\ssh.exe
+  protectNTFS = false
+[init]
+  defaultBranch = main
+[pull]
+  rebase = true
+[push]
+  autoSetupRemote = true
+[gpg]
+  format = ssh
+[tag]
+  gpgsign = true
+[commit]
+  gpgsign = true
+[gpg "ssh"]
+  allowedSignersFile = ~/.ssh/allowed_signers
+  program = C:\\Users\\lehti/scoop/apps/openssh/current/ssh-keygen.exe
