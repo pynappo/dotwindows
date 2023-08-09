@@ -66,8 +66,8 @@
             "experimental.retroTerminalEffect": false,
             "font": 
             {
-                "face": "Inconsolata NFM",
-                "size": 12,
+                "face": "Inconsolata Nerd Font Mono",
+                "size": 12.0,
                 "weight": "normal"
             },
             "intenseTextStyle": "bold",
@@ -111,12 +111,6 @@
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
-            },
-            {
-                "guid": "{e815dbcf-5693-58cf-8c67-50b6b42659ea}",
-                "hidden": false,
-                "name": "Arch",
-                "source": "Windows.Terminal.Wsl"
             },
             {
                 "guid": "{269b9482-3916-5e4e-8ab9-c7146d0ef9a0}",
@@ -492,3 +486,4 @@
         }
     ],
     "useAcrylicInTabRow": true
+}
