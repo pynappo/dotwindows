@@ -1,6 +1,0 @@
-[core]
-	sshCommand = C:/Users/lehti/scoop/shims/ssh.exe
-[user]
-	signingkey = key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHzsuQCom2hXDqY25R//BRyQuW8IGVYNbMvbA0AW44HR lehtien.david@gmail.com
-[gpg "ssh"]
-	program = C:/Users/lehti/scoop/apps/openssh/current/ssh-keygen.exe

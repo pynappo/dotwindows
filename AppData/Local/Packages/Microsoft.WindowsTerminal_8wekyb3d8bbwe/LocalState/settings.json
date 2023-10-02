@@ -18,6 +18,15 @@
             "command": "paste"
         },
         {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
             "command": "unbound",
             "keys": "ctrl+c"
         },
@@ -36,26 +45,11 @@
         {
             "command": "unbound",
             "keys": "ctrl+alt+comma"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "newTabMenu": 
-    [
-        {
-            "type": "remainingProfiles"
-        }
-    ],
     "profiles": 
     {
         "defaults": 
@@ -113,28 +107,10 @@
                 "source": "Git"
             },
             {
-                "guid": "{269b9482-3916-5e4e-8ab9-c7146d0ef9a0}",
+                "guid": "{aab79973-318f-43b6-a9bc-b4096493753f}",
                 "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{ec59d9cf-590d-53fd-92e1-a354886f7965}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{757c7b35-6334-5b5a-bfb4-edd154871d1c}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022 [Preview]",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{43d37229-cc7f-53a2-9c4b-491575292407}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022 [Preview]",
-                "source": "Windows.Terminal.VisualStudio"
+                "name": "Nushell",
+                "source": "nu"
             }
         ]
     },
@@ -452,8 +428,7 @@
             },
             "window": 
             {
-                "applicationTheme": "dark",
-                "useMica": false
+                "applicationTheme": "dark"
             }
         },
         {
@@ -466,8 +441,7 @@
             },
             "window": 
             {
-                "applicationTheme": "light",
-                "useMica": false
+                "applicationTheme": "light"
             }
         },
         {
@@ -480,8 +454,7 @@
             },
             "window": 
             {
-                "applicationTheme": "system",
-                "useMica": false
+                "applicationTheme": "system"
             }
         }
     ],
